@@ -1,0 +1,38 @@
+name: CI
+
+on:
+  push:
+    branches: [ dev, main ]
+  pull_request:
+    branches: [ dev ]
+
+jobs:
+  backend-test:
+    runs-on: ubuntu-latest
+    defaults: {run: {shell: bash}}
+    steps:
+      - uses: actions/checkout@v4
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with: node-version: 18
+      - name: Install & Test
+        run: |
+          cd pm-tracker-backend
+          npm ci
+          npm test
+
+  build-and-push:
+    if: github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Build Docker image
+        run: |
+          docker build -t ${{ secrets.DOCKER_REPO }}:latest ./pm-tracker-backend
+      - name: Push to registry
+        uses: docker/build-push-action@v4
+        with:
+          push: true
+          tags: ${{ secrets.DOCKER_REPO }}:latest
+
+  // that function can push the operation in the both ends 

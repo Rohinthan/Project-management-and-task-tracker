@@ -1,17 +1,18 @@
 # Project boostrapping 
 
 # Frontend
-npm create vite@latest pm-tracker-frontend -- --template react
-cd pm-tracker-frontend
-npm install
-npm install tailwindcss postcss autoprefixer
-npx tailwindcss init -p
+--npm create vite@latest pm-tracker-frontend -- 
+--template react
+--cd pm-tracker-frontend
+--npm install
+--npm install tailwindcss postcss autoprefixer
+--npx tailwindcss init -p
 
 # Backend
-mkdir pm-tracker-backend && cd pm-tracker-backend
-npm init -y
-npm install express mongoose jsonwebtoken bcryptjs dotenv cors
-npm install --save-dev nodemon
+--mkdir pm-tracker-backend && cd pm-tracker-backend
+--npm init -y
+--npm install express mongoose jsonwebtoken bcryptjs dotenv cors
+--npm install --save-dev nodemon
 
 # Project: Project Management and Task Tracker
 
@@ -50,7 +51,7 @@ To visualize analytics (task completion, team performance, event tracking).
 
 Layer	Tools / Frameworks
 
---Frontend	HTML5, CSS3, JavaScript
+--Frontend	HTML5, - CSS3, JavaScript
 -Backend	Node.js, Express.js
 -Database	MongoDB (via Mongoose)
 -API Testing	Postman

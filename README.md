@@ -142,6 +142,8 @@ Event	event.js	Analytics & activity logs
 
 ---
 
+---
 
-### **Developer** ,**Rohinthan** – Engineering Student  
+### **Developer**
+**Rohinthan** – Engineering Student  
  Passionate about crafting reliable, scalable, and meaningful software solutions that bridge innovation with real-world impact.

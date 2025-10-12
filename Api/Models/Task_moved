@@ -1,0 +1,8 @@
+{
+  "type": "task.moved",
+  "taskId": "t789",
+  "from": "todo",
+  "to": "in-progress",
+  "updatedFields": { "status": "in-progress", "updatedAt": "..." }
+}
+

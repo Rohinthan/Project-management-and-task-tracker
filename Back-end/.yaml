@@ -1,0 +1,14 @@
+version: '3.8'
+services:
+  backend:
+    build: ./projectmanagement-and-task-tracker-backend
+    volumes: 
+      - ./projectmanagement-and-task-tracker-backend:/app
+    ports:
+      - "5000:5000"
+    env_file: ./projectmanagement-and-task-tracker-backend/.env
+
+  frontend:
+    build: ./projectmanagement-and-task-tracker-backend-frontend
+    ports:
+      - "5173:5173"

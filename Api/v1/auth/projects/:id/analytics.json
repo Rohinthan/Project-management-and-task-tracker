@@ -1,0 +1,8 @@
+{
+  "success": true,
+  "data": {
+    "tasksByStatus": { "todo":12, "in-progress":5, "done":20 },
+    "overdueCount": 3,
+    "avgTimeToCompleteHours": 18
+  }
+}

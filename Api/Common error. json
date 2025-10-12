@@ -1,0 +1,8 @@
+{
+  "success": false,
+  "error": {
+    "code": "INVALID_INPUT",
+    "message": "Title is required",
+    "details": { "title": "required" }
+  }
+}

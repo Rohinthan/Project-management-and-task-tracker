@@ -3,3 +3,11 @@
   "email": "user@example.com",
   "password": "Password123!"
 }
+
+
+#success (201)
+
+{
+  "success": true,
+  "data": { "userId": "u123", "token": "eyJ..." }
+}

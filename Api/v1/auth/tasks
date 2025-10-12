@@ -1,0 +1,10 @@
+{
+  "projectId": "p123",
+  "title": "Create database schema",
+  "description": "Define models for tasks, users, events",
+  "priority": "P1",            // P0 | P1 | P2
+  "assignedTo": "u456",
+  "dueDate": "2025-10-20T12:00:00Z",
+  "estimateHours": 4,
+  "labels": ["backend","db"]
+}

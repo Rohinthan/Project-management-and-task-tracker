@@ -62,13 +62,14 @@ Environment Setup
 
 1. Clone the repository
 
-git clone https://github.com/your-username/PM-Tracker.git
-cd PM-Tracker
+git clone https://github.com/Rohinthan/Project-management-and-task-tracker/tree/main
 
 
 2. Install dependencies (Backend)
 
+
 cd Back-end
+
 npm install
 
 
@@ -85,11 +86,7 @@ Open Front-end/src/index.html in your browser.
 
 
 
-
-
----
-
-🔗 API Design & Data Models
+API Design & Data Models
 
 Category	Endpoint	Method	Description
 
@@ -102,49 +99,45 @@ Task	/api/v1/tasks	POST	Create task
 Analytics	/api/v1/events	GET	Fetch event data
 
 
-📁 All request/response examples are stored inside the /API/ folder.
+All request/response examples are stored inside the /API/ folder.
 
 
----
 
-🧱 Data Models
+Data Models
 
-Located in /Back-end/models/
+- Located in /Back-end/models/
 
-Model	File	Description
+- Model	File	Description
 
-User	user.js	Stores username, email, password
-Project	project.js	Project details
-Task	task.js	Task info, assigned users, status
-Comment	comment.js	Comments for each task
+- User	user.js	Stores username, email, password
+- Project	project.js	Project details
+Task. task.js	Task info, assigned users, status
+
+- Comment	comment.js	Comments for each task
 Event	event.js	Analytics & activity logs
 
 
 
----
+Deployment Plan
 
-🚀 Deployment Plan
+- Backend → IBM Cloud (Node.js runtime)
 
-Backend → IBM Cloud (Node.js runtime)
+- Database → MongoDB Atlas
 
-Database → MongoDB Atlas
+- Frontend → Vercel / GitHub Pages
 
-Frontend → Vercel / GitHub Pages
-
-CI/CD → Automated via GitHub Actions
+- CI/CD → Automated via GitHub Actions
 
 
 
----
+KPIs & Use Cases
 
-📊 KPIs & Use Cases
+--Track project completion rates
 
-✅ Track project completion rates
+--Measure user activity through events
 
-✅ Measure user activity through events
+--Reduce manual task tracking
 
-✅ Reduce manual task tracking
-
-✅ Improve project transparency
+--Improve project transparency
 
 

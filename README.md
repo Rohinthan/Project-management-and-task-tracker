@@ -15,13 +15,13 @@ npm install --save-dev nodemon
 
 # Project: Project Management and Task Tracker
 
-Overview
+##Overview
 
 Project Management and Task Tracker is a real-time project management system that helps teams track tasks, monitor project progress, and analyze performance efficiently.
 It provides a clean UI for users to create, update, and manage tasks while connecting to a Node.js backend for secure API handling and data storage.
 
 
-Objectives
+##Objectives
 
 To develop a responsive web-based project management system.
 
@@ -31,7 +31,7 @@ To ensure smooth communication between frontend (UI) and backend (Node.js API).
 
 To visualize analytics (task completion, team performance, event tracking).
 
-Key Features
+##Key Features
 
 --User Authentication (Register / Login)
 
@@ -46,7 +46,7 @@ Key Features
 --Event Analytics (Activity Logs, Task Metrics)
 
 
-Technology Stack
+##Technology Stack
 
 Layer	Tools / Frameworks
 
@@ -58,7 +58,7 @@ Layer	Tools / Frameworks
 -Deployment	IBM Cloud / Render / Vercel
 
 
-Environment Setup
+##Environment Setup
 
 1. Clone the repository
 
@@ -86,7 +86,7 @@ Open Front-end/src/index.html in your browser.
 
 
 
-API Design & Data Models
+##API Design & Data Models
 
 Category	Endpoint	Method	Description
 
@@ -103,7 +103,7 @@ All request/response examples are stored inside the /API/ folder.
 
 
 
-Data Models
+##Data Models
 
 - Located in /Back-end/models/
 
@@ -118,7 +118,7 @@ Event	event.js	Analytics & activity logs
 
 
 
-Deployment Plan
+##Deployment Plan
 
 - Backend → IBM Cloud (Node.js runtime)
 
@@ -130,7 +130,7 @@ Deployment Plan
 
 
 
-KPIs & Use Cases
+##KPIs & Use Cases
 
 --Track project completion rates
 
@@ -140,4 +140,8 @@ KPIs & Use Cases
 
 --Improve project transparency
 
+---
 
+
+### **Developer** ,**Rohinthan** – Engineering Student  
+ Passionate about crafting reliable, scalable, and meaningful software solutions that bridge innovation with real-world impact.
